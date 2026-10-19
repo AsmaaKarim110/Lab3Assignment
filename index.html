@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Set of Photos, Two Stories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Three Photos, Two Stories</h1>
+
+    <div class="version-buttons">
+      <button id="btnA" class="version active">Story A: Finding Home</button>
+      <button id="btnB" class="version">Story B: Running Away</button>
+    </div>
+
+    <h2 id="storyTitle"></h2>
+
+    <figure class="carousel">
+      <img id="photo" src="" alt="">
+      <span id="stage" class="stage"></span>
+    </figure>
+
+    <p id="caption" class="caption"></p>
+
+    <div class="controls">
+      <button id="prev">&larr; Back</button>
+      <div id="dots" class="dots"></div>
+      <button id="next">Next &rarr;</button>
+    </div>
+
+    <p class="hint">Tip: you can also click the photo to move forward.</p>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
